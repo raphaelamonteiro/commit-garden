@@ -1,0 +1,23 @@
+{
+    "name": "commit-garden",
+    "version": "0.1.0",
+    "description": "Your GitHub contributions as a blooming garden",
+    "main": "src/garden/GardenBuilder.js",
+    "scripts": {
+        "dev": "npx serve public",
+        "build": "echo 'No build step needed for vanilla JS'",
+        "deploy": "vercel --prod"
+    },
+    "keywords": [
+        "github",
+        "stats",
+        "visualization",
+        "garden",
+        "portfolio"
+    ],
+    "author": "Raphaela Monteiro",
+    "license": "MIT",
+    "devDependencies": {
+        "serve": "^14.0.0"
+    }
+}

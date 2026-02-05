@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CommitGarden - Your Code Garden</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.svg">
+</head>
+
+<body>
+    <div class="garden-container">
+        <header class="garden-header">
+            <h1>🌸 CommitGarden</h1>
+            <p class="tagline">Watch your code contributions bloom</p>
+
+            <div class="user-input">
+                <input type="text" id="githubUsername" placeholder="Enter GitHub username">
+                <button id="growGarden">Grow My Garden</button>
+            </div>
+        </header>
+
+        <main>
+            <div class="stats-panel">
+                <div class="stat-card">
+                    <div class="stat-icon">🌺</div>
+                    <h3>Commits</h3>
+                    <p id="commitCount" class="stat-value">0</p>
+                </div>
+                <!-- Mais stat cards -->
+            </div>
+
+            <div class="garden-visualization">
+                <canvas id="gardenCanvas"></canvas>
+                <div class="garden-legend">
+                    <span class="legend-item">🌱 = Today's commits</span>
+                    <span class="legend-item">🌺 = This week</span>
+                    <span class="legend-item">🌳 = Old growth</span>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>Plant your code, watch it grow 🌿</p>
+            <p class="github-link">
+                <a href="https://github.com/YOUR_USERNAME/commit-garden">
+                    ⭐ Star on GitHub
+                </a>
+            </p>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="garden.js"></script>
+</body>
+
+</html>

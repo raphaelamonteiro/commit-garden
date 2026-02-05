@@ -80,4 +80,4 @@ Thanks! ❤️
 # 📝 License
 MIT - Plant freely! 🌱
 
-## created by [@raphaelamonteiro](https://github.com/raphaelamonteiro)
+created by [@raphaelamonteiro](https://github.com/raphaelamonteiro)

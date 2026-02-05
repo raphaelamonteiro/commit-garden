@@ -1,0 +1,31 @@
+/* VARIÁVEIS CSS GLOBAIS (valores padrão) */
+:root {
+    --font-family: 'Arial', sans-serif;
+    --transition-speed: 0.3s;
+    --border-radius: 8px;
+}
+
+/* RESET & BASE */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: var(--font-family);
+}
+
+/* COMPONENTES GLOBAIS */
+.button {
+    padding: 10px 20px;
+    border-radius: var(--border-radius);
+    transition: all var(--transition-speed);
+    cursor: pointer;
+}
+
+/* ESTRUTURA LAYOUT */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
